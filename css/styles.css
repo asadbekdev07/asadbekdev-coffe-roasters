@@ -193,6 +193,10 @@ img {
 .sitenav-link:active {
   opacity: 0.6;
 }
+.sitenav-medium-font {
+  font-size: 16px;
+  line-height: normal;
+}
 
 /* HERO  */
 .hero-container {
@@ -448,6 +452,59 @@ img {
 .how-it-works-cta:focus {
   outline-color: var(--brown-color);
 }
+
+/* SITE-FOOTER  */
+
+.site-footer {
+  background-color: var(--light-brown);
+  background-image: url("../img/site-footer-bg.jpg");
+}
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 68px 50px;
+}
+.site-footer-logo-link {
+  display: flex;
+}
+.site-footer-logo-link:hover {
+  opacity: 0.8;
+}
+.site-footer-logo-link:active {
+  opacity: 0.6;
+}
+.site-footer-logo-img {
+  width: 235px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+
+}
+.site-footer-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.site-footer-item:not(:last-child) {
+  margin-right: 30px;
+}
+.site-footer-link {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  color: var(--accent-color);
+}
+.site-footer-link:hover {
+  color: var(--green-color);
+}
+.site-footer-link:active {
+  opacity: 0.6;
+}
+
+
 
 /* RETINA BG  */
 @media
